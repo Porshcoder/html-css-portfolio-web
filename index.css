@@ -271,11 +271,19 @@ section{
 }
 .about-pic{
     border-radius: 2rem;
-    width: 350px;
-    height: 350px;
+    
 }
 .arrow{
     position: absolute;
     right: -5rem;
-    bottom: 2px;
+    
+}
+.details-container{
+    padding: .5rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: 1px solid gray;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
