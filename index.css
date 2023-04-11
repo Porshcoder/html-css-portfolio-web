@@ -195,6 +195,11 @@ section{
 .section__text__p1{
     text-align: center;
     color: #fff;
+    margin-top: 50px;
+}
+.section__text__p3{
+    text-align: center;
+    color: purple;
 }
 .section__text__p2{
     font-size: 1.75rem;
@@ -204,7 +209,7 @@ section{
 .title{
     font-size: 3rem;
     text-align: center;
-    color: ;
+    color: #fff;
 }
 #socials-container{
     display: flex;
@@ -313,6 +318,16 @@ section{
     background-color: #fff;
     border-radius: 50px;
 }
+.details-containers{
+    padding: .5rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: 1px solid gray;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+   
+}
 .details-container{
     padding: .5rem;
     flex: 1;
@@ -321,6 +336,19 @@ section{
     border: 1px solid gray;
     border-color: rgb(163, 163, 163);
     text-align: center;
+   height: 50%;
+   
+}
+.details-container1{
+    padding: 3.5rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: 1px solid gray;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin:30px;
+   
 }
 .section-container{
     gap: 4rem;
@@ -339,7 +367,14 @@ section{
 /* experience */
 #experience{
     position: relative;
+    background-image: url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30%;
+    margin-top: 100px;
 }
+
 .experience-sub-title{
     color:purple;
     font-weight: 600;
@@ -359,7 +394,7 @@ section{
     text-align: initial;
     flex-wrap: wrap;
     flex-direction:row;
-    gap: 2.5rem;
+    gap: 1rem;
     justify-content: space-around;
 }
 
@@ -372,4 +407,7 @@ article{
 
 article.icon{
     cursor: default;
+}
+.pur{
+    color: purple;
 }
