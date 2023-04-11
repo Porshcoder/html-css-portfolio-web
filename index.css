@@ -228,6 +228,15 @@ section{
     border: 2px solid #fff;
     border-radius: 20px;
 }
+.icon4{
+    cursor: pointer;
+    height: 2rem;
+    margin-bottom: 15px;
+    background-color: #000;
+    border: 2px solid aqua;
+    border-radius: 70px;
+    
+}
 .icon1{
     cursor: pointer;
     height: 2.5rem;
@@ -259,7 +268,7 @@ section{
 }
 
 .btn-color-1, .btn-color-2{
-    border: rgb(53, 53, 53) 1px solid;
+    border: rgb(242, 241, 241) 1px solid;
 }
 .btn-color-1:hover, 
 .btn-color-2:hover{
@@ -276,7 +285,7 @@ section{
 
 .btn-color-2{
     background: none;
-    color: #fff;
+    color: #000;
 }
 .btn-color-2:hover{
     border: rgb(255, 255, 255) 1px solid;
@@ -317,7 +326,7 @@ section{
     right: -5rem;
     background-color: #fff;
     border-radius: 50px;
-    margin-top: 30px;
+   
 }
 .details-containers{
     padding: .5rem;
@@ -417,6 +426,12 @@ article.icon{
 /* projects */
 #projects{
     position: relative;
+    background-image: url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin-top: 100px;
 }
 .color-container{
     border-color: #000;
@@ -437,4 +452,68 @@ article.icon{
 .project-btn{
     color: #000;
     border-color: #fff;
+}
+
+
+/* contact */
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    border-color: purple;
+    background: rgb(4, 4, 27);
+    margin: 2rem auto;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.contact-info-container p{
+    font-size: larger;
+}
+.contact-icon{
+    cursor: progress;
+    margin-bottom: 10px;
+}
+
+.location{
+    display: flex;
+    justify-content: center;  
+   
+}
+.location p{
+    color: purple;
+    margin: 10px;
+    margin-top: 10px;
+    font-size: medium;
+}
+.puk{
+   margin-left: 30px;
+}
+
+/* footer */
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+footer p{
+    text-align: center;
+    color: purple;
+}
+.cor{
+    color: aqua;
 }
