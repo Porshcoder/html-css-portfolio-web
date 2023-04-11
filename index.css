@@ -317,6 +317,7 @@ section{
     right: -5rem;
     background-color: #fff;
     border-radius: 50px;
+    margin-top: 30px;
 }
 .details-containers{
     padding: .5rem;
@@ -348,7 +349,8 @@ section{
     border-color: rgb(163, 163, 163);
     text-align: center;
     margin:30px;
-   
+    width: 50%;
+    margin-left:180px;
 }
 .section-container{
     gap: 4rem;
@@ -410,4 +412,29 @@ article.icon{
 }
 .pur{
     color: purple;
+}
+
+/* projects */
+#projects{
+    position: relative;
+}
+.color-container{
+    border-color: #000;
+    background: #fff;
+}
+
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title{
+    margin: 1rem;
+    color: #000;
+}
+
+.project-btn{
+    color: #000;
+    border-color: #fff;
 }
